@@ -122,8 +122,9 @@ header .left .col-lg-12{
   padding: 0 2em;
   position: absolute;
   text-align: center;
-  top: 35%;
+  top: 20%;
   width: 100%;
+  text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
 }
 .lotes h2{
   color: rgb(221, 10, 30);
@@ -258,6 +259,16 @@ header .left .col-lg-12{
 }
 .margin-m{
   margin: 2em 0;
+}
+.venta h1:first-child{
+  margin-top: 1em;
+}
+.venta h1{
+  margin:0;
+}
+.venta .text{
+  width: 100%;
+  margin:1em 0;
 }
 /* Map Responsive */
 .google-map {
