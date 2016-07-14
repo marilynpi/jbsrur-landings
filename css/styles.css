@@ -122,7 +122,7 @@ header .left .col-lg-12{
   padding: 0 2em;
   position: absolute;
   text-align: center;
-  top: 20%;
+  top: 10%;
   width: 100%;
   text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
 }
@@ -153,14 +153,16 @@ header .left .col-lg-12{
 .lotes header ul{
   list-style: none;
   color: rgb(255,255,255);
-  font-size: 2.2em;
+  font-size: 1.3em;
   font-weight: bold;
   margin: 0 auto;
-  padding: 1.5em 30px 0 0;
+  padding: 1em;
   position: absolute;
   text-align: center;
-  top: 0;
-  width: 100%;
+  top: 1em;
+  width: 26%;
+  background-color: rgba(221, 10, 30, 0.3);
+  text-align: left;
 }
 .servicios h2{
   text-align: center;
@@ -224,9 +226,6 @@ header .left .col-lg-12{
 .servicios .checklist{
   padding-bottom: 2.5em;
 }
-.canitas header img{
-  border-top: 5px solid red;
-}
 .canitas h1{
   color: rgb(0, 170, 34);
   padding: 0 1em;
@@ -246,7 +245,8 @@ header .left .col-lg-12{
   margin-bottom: 0.1em;
 }
 .canitas header ul{
-  padding: 0.5em 30px 0 0;
+  background: rgba(0, 170, 34, 0.2) none repeat scroll 0 0;
+  width: 30%;
 }
 .canitas .checklist{
   margin-top: 2em;

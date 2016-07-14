@@ -6,6 +6,7 @@
       email = $("#email").val(),
       telefono = $("#telefono").val(),
       mensaje = $("#mensaje").val();
+      console.log()
     if (nombre == "") {
       $("#nombre").focus();
       return false;
@@ -24,6 +25,10 @@
     }
     else if(mensaje  == ""){
       $("#mensaje").focus();
+      return false;
+    }
+    else if(!isValidEmailAddress(email)){
+      $("#email").focus();
       return false;
     }
     else{
@@ -46,5 +51,12 @@
       })
       return false;
     }
+    function isValidEmailAddress(emailAddress) {
+      var pattern = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      console.log(pattern.test(emailAddress));
+      return pattern.test(emailAddress);
+    }
   });
+
+
 })();
