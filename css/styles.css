@@ -227,15 +227,19 @@ header .left .col-lg-12{
   padding-bottom: 2.5em;
 }
 .canitas h1{
-  color: rgb(0, 170, 34);
-  padding: 0 1em;
-  text-align: left;
-  top: 0.5em;
+    background: url('../img/logo-canitas.png');
+    background-size: contain;
+    background-position: left;
+    height: 2.3em;
+    top: 0.5em;
+    background-repeat: no-repeat;
+    left: 1.5em;
 }
 .canitas h3{
-  left: 2.5em;
-  position: absolute;
-  top: 2.5em;
+    left: 2.5em;
+    position: absolute;
+    top: 5.5em;
+    font-size: 1.8em;
 }
 .canitas .text p{
   font-size: 1em;
@@ -553,7 +557,7 @@ footer p{
     text-align: left;
   }
   .canitas h1 {
-    left: 0;
+    left: 4em;
     padding: 0;
     top: 0.5em;
   }
@@ -564,7 +568,7 @@ footer p{
   .canitas h3 {
     left: 2em;
     position: absolute;
-    top: 1.5em;
+    top: 3.5em;
     left: 0;
   }
   .corzuelas{
@@ -640,7 +644,7 @@ footer p{
   .canitas h3 {
     left: 2em;
     position: absolute;
-    top: 1.5em;
+    top: 3.5em;
   }
 }
   /* Tablet Portrait - Mobile Landscape */
